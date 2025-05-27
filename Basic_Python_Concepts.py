@@ -1,16 +1,13 @@
-# Arithmetic operations in Python
-# Input two numbers
-a = float(input("Enter the first number: "))
-b = float(input("Enter the second number: "))
+x=int(input("Enter first number:"))
+y=int(input("Enter Second number:"))
 
-# Perform arithmetic operations
-addition = a + b
-subtraction = a - b
-multiplication = a * b
-division = a / b if b != 0 else "Cannot divide by zero"
-
-# Display results
-print("Addition:", addition)
-print("Subtraction:", subtraction)
-print("Multiplication:", multiplication)
-print("Division:", division)
+Add=x+y
+Sub=x-y
+Mul=x*y
+Div=x/y
+print("Number are :",x,y)
+print("Add=",Add)
+print("Sub=",Sub)
+print("Mul=",Mul)
+print("Div=",Div)
+print("Thank you")
